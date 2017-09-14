@@ -119,7 +119,7 @@ end
 %creating a vector of zeros
  z1_temp=zeros(size(Theta1,1),1);
  z2_temp=zeros(size(Theta2,1),1);
-%
+
 Theta1_temp=[z1_temp Theta1(:,2:end)];
 Theta2_temp=[z2_temp Theta2(:,2:end)];
 
@@ -129,7 +129,7 @@ Theta2_grad=delta2/m+(lambda*Theta2_temp)/m;
 
 
 
-% df=ad;
+
 
 
 
